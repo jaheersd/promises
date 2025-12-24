@@ -1,4 +1,4 @@
 const promise=new Promise(()=>{
-    resolve(10);
+    reject(10);
 });
 console.log(promise);
