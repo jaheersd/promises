@@ -3,7 +3,9 @@ const promise = new Promise((resolve, reject) => {
     resolve(10);
   }, 1000);
 });
-promise.then((value) => {
-  console.log(value);
-});
-// output : 10
+// promise.then((value) => {
+//   console.log(value);
+// });
+// // output : 10
+promise.then(console.log);
+// output 10
